@@ -36,7 +36,7 @@ exit 0
 #### centos
 vim /etc/rc.d/rc.local
 
-cpulimit -l 80 -i -e /xmrig
+cpulimit -l 80 -i -e xmrig
 
 /root/xmrig
 
