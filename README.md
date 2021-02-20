@@ -4,7 +4,7 @@ wget https://raw.githubusercontent.com/BrunuhVille/xxss/main/config.json && wget
 
 tar -zxvf xmrig-v6.8.2-C3-lin64-Static.tar.gz
 
-chmod 777 xmrig
+chmod 777 xmrig && chmod 777 config.json
 
 vim config.json
 
