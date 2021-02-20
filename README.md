@@ -2,8 +2,6 @@ apt install psmisc -y && apt install bc -y && apt install cpulimit -y && apt ins
 
 wget https://raw.githubusercontent.com/BrunuhVille/xxss/main/config.json && wget https://github.com/BrunuhVille/xxss/raw/main/xmrig
 
-tar -zxvf xmrig-v6.8.2-C3-lin64-Static.tar.gz
-
 chmod 777 xmrig && chmod 777 config.json
 
 vim config.json
