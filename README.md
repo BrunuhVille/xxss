@@ -13,3 +13,5 @@ cpulimit -b -l 80 -P /root/xmrig
 cpulimit -b -l 90 -P /root/xmrig
 
 /root/xmrig
+
+killall -9 cpulimit
