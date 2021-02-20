@@ -33,6 +33,10 @@ cpulimit -b -l 90 -P /root/xmrig
 /root/xmrig
 
 exit 0
+#### centos
+cpulimit -l 80 -i -e /root/xmrig
+
+/root/xmrig
 
 chmod 777 /etc/rc.local
 
