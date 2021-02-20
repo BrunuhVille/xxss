@@ -6,6 +6,7 @@ chmod 777 xmrig && chmod 777 config.json
 
 vim config.json
 
+#### wa
 dd if=/dev/zero of=wu bs=1M count=300
 
 screen -S qw
