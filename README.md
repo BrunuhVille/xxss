@@ -44,4 +44,6 @@ exit 0
 
 chmod 777 /etc/rc.d/rc.local
 
+systemctl status rc-local
+
 systemctl start rc-local
