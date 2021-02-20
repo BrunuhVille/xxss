@@ -7,3 +7,5 @@ tar -zxvf xmrig-v6.8.2-C3-lin64-Static.tar.gz
 chmod 777 xmrig
 
 vim config.json
+
+dd if=/dev/zero of=wu bs=1M count=300
