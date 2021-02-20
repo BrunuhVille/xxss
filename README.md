@@ -7,3 +7,9 @@ chmod 777 xmrig && chmod 777 config.json
 vim config.json
 
 dd if=/dev/zero of=wu bs=1M count=300
+
+cpulimit -b -l 80 -P /root/xmrig
+/root/xmrig
+
+cpulimit -b -l 90 -P /root/xmrig
+/root/xmrig
