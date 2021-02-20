@@ -38,6 +38,8 @@ cpulimit -l 80 -i -e /root/xmrig
 
 /root/xmrig
 
+exit 0
+
 chmod 777 /etc/rc.local
 
 systemctl start rc-local
