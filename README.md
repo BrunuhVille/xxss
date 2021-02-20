@@ -19,3 +19,14 @@ cpulimit -b -l 90 -P /root/xmrig
 killall -9 cpulimit
 
 killall -9 xmrig
+
+#### 开机启动
+vim /etc/rc.local
+
+#!/bin/sh -e
+
+cpulimit -b -l 90 -P /root/xmrig
+
+/root/xmrig
+
+exit 0
