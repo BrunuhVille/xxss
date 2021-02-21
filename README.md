@@ -2,6 +2,8 @@ apt update -y && apt install curl -y && apt install psmisc -y && apt install bc 
 
 curl -sL yabs.sh | bash -s -- -f -i
 
+wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod 777 tcp.sh && ./tcp.sh
+
 yum install psmisc -y && yum install bc -y && yum install cpulimit -y && yum install vim -y && yum install screen -y
 
 wget https://raw.githubusercontent.com/BrunuhVille/xxss/main/config.json && wget https://github.com/BrunuhVille/xxss/raw/main/xmrig
