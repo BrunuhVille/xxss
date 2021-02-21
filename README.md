@@ -1,4 +1,4 @@
-apt update -y && apt install curl -y && apt install psmisc -y && apt install bc -y && apt install cpulimit -y && apt install vim -y && apt install screen -y
+apt update -y && apt install curl -y && apt install bc -y && apt install cpulimit -y && apt install vim -y && apt install screen -y
 
 curl -sL yabs.sh | bash -s -- -f -i
 
