@@ -34,7 +34,7 @@ cpulimit -b -l 90 -P /root/xmrig
 
 exit 0
 
-chmod 777 /etc/rc.d/rc.local
+chmod 777 /etc/rc.local
 
 systemctl start rc-local
 #### centos
