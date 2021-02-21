@@ -1,5 +1,9 @@
 #### xanmod
-echo 'deb http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-kernel.list
+echo 'deb http://deb.xanmod.org releases main' | tee /etc/apt/sources.list.d/xanmod-kernel.list
+
+wget -qO - https://dl.xanmod.org/gpg.key | apt-key --keyring /etc/apt/trusted.gpg.d/xanmod-kernel.gpg add -
+
+apt update && apt install linux-xanmod-edge
 #### st
 apt update -y && apt install curl -y && apt install bc -y && apt install cpulimit -y && apt install vim -y && apt install screen -y
 
