@@ -5,7 +5,7 @@ wget -qO - https://dl.xanmod.org/gpg.key | apt-key --keyring /etc/apt/trusted.gp
 
 apt update && apt install linux-xanmod-edge
 #### st
-apt update -y && apt install curl -y && apt install bc -y && apt install cpulimit -y && apt install vim -y && apt install screen -y
+apt update -y && apt install curl -y && apt install bc -y && apt install gnupg -y && apt install cpulimit -y && apt install vim -y && apt install screen -y
 
 curl -sL yabs.sh | bash -s -- -f -i
 
