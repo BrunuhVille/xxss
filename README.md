@@ -2,6 +2,8 @@
 wget 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && chmod 777 InstallNET.sh && bash InstallNET.sh -d 10 -v 64 -a
 
 wget 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && chmod 777 InstallNET.sh && bash InstallNET.sh -d 10 -v 64 -a -firmware
+
+wget 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && chmod 777 InstallNET.sh && bash InstallNET.sh -d 10 -v 64 -a --ip-addr 10.170.0.4 --ip-gate 10.170.0.1 --ip-mask 255.255.255.0
 #### xanmod
 apt-get install grub-efi
 
